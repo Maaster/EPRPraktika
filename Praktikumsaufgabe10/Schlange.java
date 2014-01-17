@@ -178,7 +178,7 @@ public class Schlange {
 
         for(int i = 0; i < schlangenPos.length && !enthaeltSchlange; i++)
         {
-            if(position.istGleich(schlangenPos[0])) {
+            if(position.istGleich(schlangenPos[i])) {
                 enthaeltSchlange = true;
             }
         }
